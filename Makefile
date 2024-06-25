@@ -12,4 +12,4 @@ clean:
 
 .PHONY: install
 install:
-	cmake --build build --target install
+	cmake --build $(BUILD_DIR) --target install
